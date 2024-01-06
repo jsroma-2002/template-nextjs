@@ -1,3 +1,21 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "indent": ["error", 2],
+    "quotes": ["warn", "double"],
+    "semi": ["error", "always"],
+    "keyword-spacing": ["warn", { "before": true }],
+    "space-before-function-paren": ["warn", "never"],
+    "eqeqeq": ["error", "always"],
+    "space-infix-ops": "warn",
+    "comma-spacing": ["warn", { "before": false, "after": true }],
+    "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
+    "curly": ["warn", "all"],
+    "no-multiple-empty-lines": ["warn", { "max": 1 }],
+    "operator-linebreak": ["warn"],
+    "one-var": ["warn", "never"],
+    "block-spacing": ["warn", "always"],
+    "eol-last": ["warn", "always"]
+  }
 }
