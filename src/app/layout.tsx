@@ -1,10 +1,10 @@
-import React from "react";
 import type { Metadata } from "next";
+import React from "react";
 import "../config/theme/globals.css";
 
 export const metadata: Metadata = {
-  title: "Movies Fav App",
-  description: "Main Page for Movies Fav App created with Next.js",
+  title: "Next.js Template",
+  description: "Next.js Template with TypeScript, Tailwind CSS, and ESLint",
 };
 
 export default function RootLayout({
