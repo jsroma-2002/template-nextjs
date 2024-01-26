@@ -1,3 +1,5 @@
+import { Post } from "../entities/post";
+
 export abstract class PostDataSource {
-  abstract getPosts(): Promise<any[]>;
+  abstract getPosts(): Promise<Post[]>;
 }
