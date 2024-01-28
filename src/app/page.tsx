@@ -1,16 +1,7 @@
-import { JsonDatasource } from "@/data/datasources/json-datasource";
-import { PostRepositoryImpl } from "@/data/repositories/post-repository-impl";
-
-export default async function Home() {
-  const repository = new PostRepositoryImpl(new JsonDatasource());
-
-  const posts = await repository.getPosts();
-
-  console.log(posts);
-
+export default function Home() {
   return (
-    <main className="bg-red-500">
-      <h1>Hola</h1>
+    <main>
+      <h1>👋</h1>
     </main>
   );
 }
